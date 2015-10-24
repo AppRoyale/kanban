@@ -1,11 +1,19 @@
 {
+  "__comment": "npm start",
+  "___comment": "insert with: npm i the-plugin --save-dev",
   "name": "kanban",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack-dev-server",
+    "test": "echo \"Success: You suck!\""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^1.6.2",
+    "open-browser-webpack-plugin": "0.0.1",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
 }
